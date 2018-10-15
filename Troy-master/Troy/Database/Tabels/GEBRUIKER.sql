@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[GEBRUIKER]
+(
+	[id] INT NOT NULL CONSTRAINT [PK_GEBRUIKER] PRIMARY KEY IDENTITY, 
+    [naam] NVARCHAR(50) NULL, 
+    [achternaam] NVARCHAR(50) NULL, 
+    [gebortedatum] DATE NULL
+)

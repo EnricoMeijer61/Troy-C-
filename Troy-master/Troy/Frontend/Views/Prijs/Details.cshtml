@@ -1,0 +1,42 @@
+﻿@model Frontend.Models.Prijs
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Prijs</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.prijs)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.prijs)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.accomodatieid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.accomodatieid)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dienstid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dienstid)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

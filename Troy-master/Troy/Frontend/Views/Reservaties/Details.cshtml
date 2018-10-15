@@ -1,0 +1,74 @@
+﻿@model Frontend.Models.Reservatie
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Reservatie</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.datum)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.datum)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.start)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.start)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.eind)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.eind)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.gebruikerid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.gebruikerid)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.resortid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.resortid)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.accomodatieid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.accomodatieid)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dienstid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dienstid)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

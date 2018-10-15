@@ -1,0 +1,18 @@
+C:\Users\Justin Drenthe\Documents\School\Projecten\Troy\Troy\Troy\bin\Troy.dll.config
+C:\Users\Justin Drenthe\Documents\School\Projecten\Troy\Troy\Troy\bin\Troy.dll
+C:\Users\Justin Drenthe\Documents\School\Projecten\Troy\Troy\Troy\bin\Troy.pdb
+C:\Users\Justin Drenthe\Documents\School\Projecten\Troy\Troy\Troy\obj\Debug\Backend.csprojResolveAssemblyReference.cache
+C:\Users\Justin Drenthe\Documents\School\Projecten\Troy\Troy\Troy\obj\Debug\Troy.dll
+C:\Users\Justin Drenthe\Documents\School\Projecten\Troy\Troy\Troy\obj\Debug\Troy.pdb
+D:\Troy\Troy\Troy\bin\Troy.dll.config
+D:\Troy\Troy\Troy\bin\Troy.dll
+D:\Troy\Troy\Troy\bin\Troy.pdb
+D:\Troy\Troy\Troy\bin\DataContract.dll
+D:\Troy\Troy\Troy\bin\DataLayer.dll
+D:\Troy\Troy\Troy\bin\EntityFramework.dll
+D:\Troy\Troy\Troy\bin\DataContract.pdb
+D:\Troy\Troy\Troy\bin\DataLayer.pdb
+D:\Troy\Troy\Troy\bin\EntityFramework.xml
+D:\Troy\Troy\Troy\obj\Debug\Backend.csprojResolveAssemblyReference.cache
+D:\Troy\Troy\Troy\obj\Debug\Troy.dll
+D:\Troy\Troy\Troy\obj\Debug\Troy.pdb

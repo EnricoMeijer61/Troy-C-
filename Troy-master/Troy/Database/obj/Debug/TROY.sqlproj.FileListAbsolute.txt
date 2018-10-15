@@ -1,0 +1,10 @@
+C:\Users\Justin Drenthe\Documents\School\Projecten\Troy\Troy\Database\bin\Debug\TROY.dacpac
+C:\Users\Justin Drenthe\Documents\School\Projecten\Troy\Troy\Database\bin\Debug\Database.dll
+C:\Users\Justin Drenthe\Documents\School\Projecten\Troy\Troy\Database\bin\Debug\Database.pdb
+C:\Users\Justin Drenthe\Documents\School\Projecten\Troy\Troy\Database\obj\Debug\Database.dll
+C:\Users\Justin Drenthe\Documents\School\Projecten\Troy\Troy\Database\obj\Debug\Database.pdb
+D:\Troy\Troy\Database\bin\Debug\TROY.dacpac
+D:\Troy\Troy\Database\bin\Debug\TROY.dll
+D:\Troy\Troy\Database\bin\Debug\TROY.pdb
+D:\Troy\Troy\Database\obj\Debug\TROY.dll
+D:\Troy\Troy\Database\obj\Debug\TROY.pdb

@@ -1,0 +1,76 @@
+﻿@{
+    ViewBag.Title = "Registreren";
+}
+<body style="margin:50px;">
+    <h2>@ViewBag.Title</h2>
+    <div class="row">
+        <div class="col-md-12">
+            <form method="post" action="new-user.php">
+                <div class="w3-row w3-section">
+                    <div class="w3-col" style="width:120px; margin-top:9px;"><label class="w3-label"><b>Naam:</b> </label></div>
+                    <div class="w3-rest">
+                        <input class="w3-input w3-border" name="naam" type="text" placeholder="Naam" required>
+                    </div>
+                </div>
+                <div class="w3-row w3-section">
+                    <div class="w3-col" style="width:120px; margin-top:9px;"><label class="w3-label"><b>Achternaam:</b> </label></div>
+                    <div class="w3-rest">
+                        <input class="w3-input w3-border" name="achternaam" type="text" placeholder="Achternaam" required>
+                    </div>
+                </div>
+                <div class="w3-row w3-section">
+                    <div class="w3-col" style="width:120px; margin-top:9px;"><label class="w3-label"><b>Adres:</b> </label></div>
+                    <div class="w3-rest">
+                        <input class="w3-input w3-border" name="adres" type="text" placeholder="Adres" required>
+                    </div>
+                </div>
+                <div class="w3-row w3-section">
+                    <div class="w3-col" style="width:120px; margin-top:9px;"><label class="w3-label"><b>Plaats:</b> </label></div>
+                    <div class="w3-rest">
+                        <input class="w3-input w3-border" name="plaats" type="text" placeholder="Plaats" required>
+                    </div>
+                </div>
+                <div class="w3-row w3-section">
+                    <div class="w3-col" style="width:120px; margin-top:9px;"><label class="w3-label"><b>Postcode:</b> </label></div>
+                    <div class="w3-rest">
+                        <input style="width:100px;" class="w3-input w3-border" name="postcode" maxlength="7" type="text" placeholder="Postcode" required>
+                    </div>
+                </div>
+                <div class="w3-row w3-section">
+                    <div class="w3-col" style="width:120px; margin-top:9px;"><label class="w3-label"><b>Telefoon:</b> </label></div>
+                    <div class="w3-rest">
+                        <input class="w3-input w3-border" name="telefoon" type="number" placeholder="Telefoon" required>
+                    </div>
+                </div>
+                <div class="w3-row w3-section">
+                    <div class="w3-col" style="width:120px; margin-top:9px;"><label class="w3-label"><b>E-mail:</b> </label></div>
+                    <div class="w3-rest">
+                        <input class="w3-input w3-border" name="email" type="email" placeholder="E-mail" required>
+                    </div>
+                </div>
+                <br>
+                <div class="w3-row w3-section">
+                    <div class="w3-col" style="width:120px; margin-top:9px;"><label class="w3-label"><b>Username:</b> </label></div>
+                    <div class="w3-rest">
+                        <input class="w3-input w3-border" name="username" type="text" placeholder="Username" required>
+                    </div>
+                </div>
+                <div class="w3-row w3-section">
+                    <div class="w3-col" style="width:120px; margin-top:9px;"><label class="w3-label"><b>Wachtwoord:</b> </label></div>
+                    <div class="w3-rest">
+                        <input class="w3-input w3-border" name="password1" type="password" placeholder="Wachtwoord" required>
+                    </div>
+                </div>
+                <div class="w3-row w3-section">
+                    <div class="w3-col" style="width:120px; margin-top:9px;"><label class="w3-label"><b>Herhaal:</b> </label></div>
+                    <div class="w3-rest">
+                        <input class="w3-input w3-border" name="password2" type="password" placeholder="Herhaal wachtwoord" required>
+                    </div>
+                </div>
+                <input onclick="window.location.href = 'deelnemers.php'" type="button" class="w3-btn w3-blue-grey w3-round-small" value="Cancel"></input>
+                <input type="submit" class="w3-btn w3-blue-grey w3-round-small" value="Submit"></input>
+            </form>
+        </div>
+    </div>
+
+</body>

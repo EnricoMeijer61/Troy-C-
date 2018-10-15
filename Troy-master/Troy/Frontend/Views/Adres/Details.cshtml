@@ -1,0 +1,90 @@
+﻿@model Frontend.Models.Adres
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Adres</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.land)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.land)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.stad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.stad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.provincie)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.provincie)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.straat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.straat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.postcode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.postcode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.telefoonnummer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.telefoonnummer)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.gebruikerid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.gebruikerid)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.resortid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.resortid)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

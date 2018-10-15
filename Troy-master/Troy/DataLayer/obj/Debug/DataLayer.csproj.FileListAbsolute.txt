@@ -1,0 +1,18 @@
+C:\Users\Justin Drenthe\Documents\School\Projecten\Troy\Troy\DataLayer\bin\DataLayer.dll.config
+C:\Users\Justin Drenthe\Documents\School\Projecten\Troy\Troy\DataLayer\bin\DataLayer.dll
+C:\Users\Justin Drenthe\Documents\School\Projecten\Troy\Troy\DataLayer\bin\DataLayer.pdb
+C:\Users\Justin Drenthe\Documents\School\Projecten\Troy\Troy\DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
+C:\Users\Justin Drenthe\Documents\School\Projecten\Troy\Troy\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\Justin Drenthe\Documents\School\Projecten\Troy\Troy\DataLayer\obj\Debug\DataLayer.pdb
+D:\Troy\Troy\DataLayer\bin\DataLayer.dll.config
+D:\Troy\Troy\DataLayer\bin\DataLayer.dll
+D:\Troy\Troy\DataLayer\bin\DataLayer.pdb
+D:\Troy\Troy\DataLayer\bin\DataContract.dll
+D:\Troy\Troy\DataLayer\bin\EntityFramework.dll
+D:\Troy\Troy\DataLayer\bin\EntityFramework.SqlServer.dll
+D:\Troy\Troy\DataLayer\bin\DataContract.pdb
+D:\Troy\Troy\DataLayer\bin\EntityFramework.xml
+D:\Troy\Troy\DataLayer\bin\EntityFramework.SqlServer.xml
+D:\Troy\Troy\DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
+D:\Troy\Troy\DataLayer\obj\Debug\DataLayer.dll
+D:\Troy\Troy\DataLayer\obj\Debug\DataLayer.pdb

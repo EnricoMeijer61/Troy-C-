@@ -1,0 +1,42 @@
+﻿@model Frontend.Models.Dienst
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Dienst</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.dienst)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dienst)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.zorg)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.zorg)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.resortid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.resortid)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

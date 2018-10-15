@@ -1,0 +1,23 @@
+C:\Users\Justin Drenthe\Documents\School\Projecten\Troy\Troy\Database\bin\Debug\Database.dacpac
+C:\Users\Justin Drenthe\Documents\School\Projecten\Troy\Troy\Database\bin\Debug\Database.dll
+C:\Users\Justin Drenthe\Documents\School\Projecten\Troy\Troy\Database\bin\Debug\Database.pdb
+C:\Users\Justin Drenthe\Documents\School\Projecten\Troy\Troy\Database\obj\Debug\Database.dll
+C:\Users\Justin Drenthe\Documents\School\Projecten\Troy\Troy\Database\obj\Debug\Database.pdb
+C:\Users\Enrico\Documents\Port of troy\Troy\Troy\Database\bin\Debug\Database.dacpac
+C:\Users\Enrico\Documents\Port of troy\Troy\Troy\Database\bin\Debug\Database.dll
+C:\Users\Enrico\Documents\Port of troy\Troy\Troy\Database\bin\Debug\Database.pdb
+C:\Users\Enrico\Documents\Port of troy\Troy\Troy\Database\obj\Debug\Model.xml
+C:\Users\Enrico\Documents\Port of troy\Troy\Troy\Database\obj\Debug\refactor.xml
+C:\Users\Enrico\Documents\Port of troy\Troy\Troy\Database\obj\Debug\postdeploy.sql
+C:\Users\Enrico\Documents\Port of troy\Troy\Troy\Database\obj\Debug\predeploy.sql
+C:\Users\Enrico\Documents\Port of troy\Troy\Troy\Database\obj\Debug\Database.dll
+C:\Users\Enrico\Documents\Port of troy\Troy\Troy\Database\obj\Debug\Database.pdb
+D:\Troy\Troy\Database\bin\Debug\Database.dacpac
+D:\Troy\Troy\Database\bin\Debug\Database.dll
+D:\Troy\Troy\Database\bin\Debug\Database.pdb
+D:\Troy\Troy\Database\obj\Debug\Database.dll
+D:\Troy\Troy\Database\obj\Debug\Database.pdb
+D:\Troy\Troy\Database\obj\Debug\Model.xml
+D:\Troy\Troy\Database\obj\Debug\refactor.xml
+D:\Troy\Troy\Database\obj\Debug\postdeploy.sql
+D:\Troy\Troy\Database\obj\Debug\predeploy.sql

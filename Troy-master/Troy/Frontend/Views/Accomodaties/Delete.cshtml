@@ -1,0 +1,56 @@
+﻿@model Frontend.Models.Accomodatie
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Accomodatie</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.oppervlakte)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.oppervlakte)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.slaapkamers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.slaapkamers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.autos)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.autos)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.typeid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.typeid)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

@@ -1,0 +1,39 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[ACCOMODATIE] (Table)
+       [dbo].[ACCOMODATIEFACILITEIT] (Table)
+       [dbo].[ADRES] (Table)
+       [dbo].[DIENST] (Table)
+       [dbo].[FACILITEIT] (Table)
+       [dbo].[GEBRUIKER] (Table)
+       [dbo].[PRIJS] (Table)
+       [dbo].[RESERVATIE] (Table)
+       [dbo].[RESORT] (Table)
+       [dbo].[TYPE] (Table)
+       [dbo].[UUID] (Table)
+       [dbo].[FK_ACCOMODATIE_TYPE] (Foreign Key)
+       [dbo].[FK_ACCOMODATIEFACILITEIT_ACCOMODATIE] (Foreign Key)
+       [dbo].[FK_ADRES_GEBRUIKER] (Foreign Key)
+       [dbo].[FK_ADRES_RESORT] (Foreign Key)
+       [dbo].[FK_DIENST_RESORT] (Foreign Key)
+       [dbo].[FK_FACILITEIT_RESORT] (Foreign Key)
+       [dbo].[FK_PRIJS_ACCOMODATIE] (Foreign Key)
+       [dbo].[FK_PRIJS_DIENST] (Foreign Key)
+       [dbo].[FK_RESERVATIE_GEBRUIKER] (Foreign Key)
+       [dbo].[FK_RESERVATIE_RESORT] (Foreign Key)
+       [dbo].[FK_RESERVATIE_ACCOMODATIE] (Foreign Key)
+       [dbo].[FK_RESERVATIE_DIENST] (Foreign Key)
+       [dbo].[FK_TYPE_RESORT] (Foreign Key)
+       [dbo].[FK_UUID_GEBRUIKER] (Foreign Key)
+
+** Supporting actions

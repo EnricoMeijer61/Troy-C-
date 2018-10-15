@@ -1,0 +1,69 @@
+﻿@model IEnumerable<Frontend.Models.Reservatie>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.datum)
+        </th>
+        <th>    
+            @Html.DisplayNameFor(model => model.start)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.eind)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.gebruikerid)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.resortid)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.accomodatieid)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dienstid)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.datum)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.start)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.eind)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.gebruikerid)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.resortid)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.accomodatieid)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dienstid)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>

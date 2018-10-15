@@ -1,0 +1,50 @@
+﻿@model Frontend.Models.Accomodatie
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Accomodatie</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.oppervlakte)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.oppervlakte)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.slaapkamers)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.slaapkamers)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.autos)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.autos)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.typeid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.typeid)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

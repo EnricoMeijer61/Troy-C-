@@ -1,0 +1,11 @@
+C:\Users\Justin Drenthe\Documents\School\Projecten\Troy\Troy\DataContract\bin\DataContract.dll.config
+C:\Users\Justin Drenthe\Documents\School\Projecten\Troy\Troy\DataContract\bin\DataContract.dll
+C:\Users\Justin Drenthe\Documents\School\Projecten\Troy\Troy\DataContract\bin\DataContract.pdb
+C:\Users\Justin Drenthe\Documents\School\Projecten\Troy\Troy\DataContract\obj\Debug\DataContract.csprojResolveAssemblyReference.cache
+C:\Users\Justin Drenthe\Documents\School\Projecten\Troy\Troy\DataContract\obj\Debug\DataContract.dll
+C:\Users\Justin Drenthe\Documents\School\Projecten\Troy\Troy\DataContract\obj\Debug\DataContract.pdb
+D:\Troy\Troy\DataContract\bin\DataContract.dll.config
+D:\Troy\Troy\DataContract\bin\DataContract.dll
+D:\Troy\Troy\DataContract\bin\DataContract.pdb
+D:\Troy\Troy\DataContract\obj\Debug\DataContract.dll
+D:\Troy\Troy\DataContract\obj\Debug\DataContract.pdb
